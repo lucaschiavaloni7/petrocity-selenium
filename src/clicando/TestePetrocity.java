@@ -24,13 +24,13 @@ public class TestePetrocity {
 
 		WebElement campoEmail = driver.findElement(By.id("email"));
 
-		campoEmail.sendKeys("lucas.branco@gmail.com");
+		campoEmail.sendKeys("E-mail");
 
 		Thread.sleep(1000);
 
 		WebElement campoTelefone = driver.findElement(By.id("telephone"));
 
-		campoTelefone.sendKeys("12345678911");
+		campoTelefone.sendKeys("11111111111");
 
 		Thread.sleep(1000);
 
