@@ -23,12 +23,12 @@ public class TesteIntra {
 		Thread.sleep(1000);
 		
 		WebElement login = driver.findElement(By.name("wps.portlets.userid"));
-		login.sendKeys("digite seu e-mail");
+		login.sendKeys("E-mail");
 		
 		Thread.sleep(1000);		
 		
 		WebElement senha = driver.findElement(By.name("password"));
-		senha.sendKeys("digite sua senha");
+		senha.sendKeys("Senha");
 		
 		WebElement botao3 = driver.findElement(By.className("wploginButtonLogin"));
 		botao3.click();
