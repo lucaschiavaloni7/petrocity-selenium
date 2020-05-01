@@ -27,7 +27,7 @@ public class TesteGmail {
 		Thread.sleep(1000);
 		
 		WebElement login = driver.findElement(By.name("identifier"));
-		login.sendKeys("lucas.branco@aluno.faculdadeimpacta.com.br");
+		login.sendKeys("E-mail");
 		
 		WebElement botao2 = driver.findElement(By.className("RveJvd"));
 		botao2.sendKeys(Keys.TAB);
@@ -36,7 +36,7 @@ public class TesteGmail {
 		Thread.sleep(1000);		
 		
 		WebElement senha = driver.findElement(By.name("password"));
-		senha.sendKeys("19001220");
+		senha.sendKeys("Senha");
 		
 		WebElement botao3 = driver.findElement(By.className("RveJvd"));
 		botao3.click();
