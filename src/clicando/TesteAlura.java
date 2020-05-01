@@ -24,12 +24,7 @@ public class TesteAlura {
 		botao.click();
 		
 		WebElement login = driver.findElement(By.name("username"));
-		login.sendKeys("lucaschiavaloni@gmail.com", Keys.TAB, "19001220");
-		
-			
-		
-		//WebElement senha = driver.findElement(By.name("password"));
-		//send("digite sua senha");
+		login.sendKeys("E-mail", Keys.TAB, "Senha");
 		
 		Thread.sleep(1000);
 		
